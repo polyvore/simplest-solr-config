@@ -8,5 +8,6 @@
 	<requestHandler name="/update" class="solr.UpdateRequestHandler" />
 	<requestHandler name="/admin" class="solr.admin.AdminHandlers" />
 	<requestHandler name="/analysis/field" class="solr.FieldAnalysisRequestHandler" startup="lazy" />
+        <xi:include href="/srv/solr/solrconfig_replication.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </config>
 
