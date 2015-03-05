@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <schema version="1.5" name="simplest-solr">
-    <types>
+    	<types>
 		<fieldType name="string" class="solr.StrField"/>
-    </types>
-    <fields>
+    	</types>
+    	<fields>
 		<field name="id" type="string" indexed="true" stored="true" required="true"/>
-    </fields>
+    	</fields>
 	<uniqueKey>id</uniqueKey>
 </schema>
